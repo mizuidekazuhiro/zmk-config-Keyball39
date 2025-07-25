@@ -59,6 +59,16 @@
         };
     };
 
+    macros {
+        //pipe key define
+        pipe_macro: pipe_macro {
+            compatible = "zmk,behavior-macro";
+            label = "PIPE_MACRO";
+            #binding-cells = <0>;
+            bindings = <&kp LS(BACKSLASH)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
