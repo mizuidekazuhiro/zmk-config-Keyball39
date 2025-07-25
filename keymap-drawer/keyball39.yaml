@@ -137,7 +137,7 @@ layers:
   - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - NUBS
-  - B
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
