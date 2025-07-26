@@ -60,7 +60,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - +
+  - ':'
   - $$mdi:keyboard-space$$
   - PgUp
   - $$mdi:arrow-down-bold$$
@@ -70,7 +70,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '*'
+  - {t: Sft+', s: Sft+"}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+<
   - Sft+Ctl+>
