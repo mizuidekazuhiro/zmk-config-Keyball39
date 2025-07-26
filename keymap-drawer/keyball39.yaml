@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: ':', h: ;}
   - Z
   - X
   - C
@@ -30,18 +30,18 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: Sft+/, s: 'Sft+?'}
+  - $$mdi:keyboard-tab$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-esc$$', h: SNIPE}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: MOUSE}
   - {t: Alt+`, h: NUM, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: SYM}
-  - $$mdi:apple-keyboard-shift$$
-  NUM:
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+`, s: Alt+~}
+  NUM:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F2
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
@@ -90,7 +90,7 @@ layers:
   - '&'
   - '*'
   - (
-  - )
+  - {t: '-', s: _}
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -274,7 +274,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
