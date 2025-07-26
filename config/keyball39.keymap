@@ -68,17 +68,17 @@
 &kp Q    &kp W         &kp E     &kp R           &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A    &kp S         &kp D     &kp F           &kp G                                         &kp H        &kp J  &kp K      &kp L    &mt SEMI SINGLE_QUOTE
 &kp Z    &kp X         &kp C     &kp V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(SLASH)
-&kp TAB  &kp LEFT_WIN  &kp LALT  &kp LEFT_SHIFT  &lt 1 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 2 SPACE                             &kp LA(GRAVE)
+&lt 4 W  &kp LEFT_WIN  &kp LALT  &kp LEFT_SHIFT  &lt 1 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 2 SPACE                             &kp LA(GRAVE)
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&trans     &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&kp TAB    &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N0) LS(N9)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON
-&kp SPACE  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SQT)
-&trans     &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp SLASH
+&trans     &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&kp TAB    &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N0) LS(N9)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&kp SPACE  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(KP_ASTERISK)
+&trans     &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
         };
 
@@ -130,6 +130,17 @@
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
             >;
+        };
+
+        adjustment {
+            bindings = <
+&trans  &trans  &trans  &kp RA(F4)  &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans                         &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans  &kp LEFT_ALT  &kp TAB  &trans                          &trans
+            >;
+
+            label = "adj";
         };
     };
 };
