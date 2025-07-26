@@ -76,7 +76,7 @@
             label = "NUM";
             bindings = <
 &trans     &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp TAB    &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N0) LS(N9)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&kp TAB    &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
 &kp SPACE  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(KP_ASTERISK)
 &trans     &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
@@ -134,10 +134,10 @@
 
         adjustment {
             bindings = <
-&trans  &trans  &trans  &kp RA(F4)     &trans                             &trans  &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &trans         &trans                             &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans
-&trans  &trans  &trans  &kp LS(LC(V))  &trans                             &trans  &trans    &kp DOWN  &trans     &trans
-&trans  &trans  &trans  &trans         &kp DELETE  &kp LEFT_ALT  &kp TAB  &trans                                 &trans
+&trans  &trans  &trans  &kp RA(F4)     &trans                           &trans  &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans         &trans                           &trans  &kp LEFT  &kp UP    &kp RIGHT  &kp TAB
+&trans  &trans  &trans  &kp LS(LC(V))  &trans                           &trans  &trans    &kp DOWN  &trans     &trans
+&trans  &trans  &trans  &trans         &kp DELETE  &mo 4  &kp LEFT_ALT  &trans                                 &trans
             >;
 
             label = "adj";
