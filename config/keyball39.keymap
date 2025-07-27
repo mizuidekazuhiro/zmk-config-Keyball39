@@ -13,8 +13,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 
 
 &lt {
@@ -61,24 +59,6 @@ macros {
         #binding-cells = <0>;
         bindings = <&kp LC(SPACE)>;
         label = "HIRAGANA";
-    };
-
-    underscore: underscore {
-        compatible = "zmk,behavior-macro";
-        label = "UNDERSCORE";
-        #binding-cells = <0>;
-        waits-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_tap &unicode 0x005F>; // '_'
-    };
-
-    pipechar: pipechar {
-        compatible = "zmk,behavior-macro";
-        label = "PIPECHAR";
-        #binding-cells = <0>;
-        waits-ms = <0>;
-        tap-ms = <0>;
-        bindings = <&macro_tap &unicode 0x007C>; // '|'
     };
 };
 
