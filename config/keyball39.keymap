@@ -125,8 +125,8 @@
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                             &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp MINUS
 &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp LEFT_SHIFT                          &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH
-&trans           &trans        &trans        &trans        &trans                                  &kp JP_UNDERSCORE  &kp BACKSLASH  &trans            &trans                &mt SEMICOLON SQT
-&trans           &trans        &trans        &trans        &trans          &kp LEFT_SHIFT  &trans  &trans                                                                    &kp JP_PIPE
+&trans           &trans        &trans        &trans        &trans                                  &kp JP_UNDERSCORE  &kp JP_PIPE  &trans            &trans                &mt SEMICOLON SQT
+&trans           &trans        &trans        &trans        &trans          &kp LEFT_SHIFT  &trans  &trans                                                                    &trans
             >;
         };
 
