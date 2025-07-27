@@ -66,8 +66,8 @@
             label = "QWRT";
             bindings = <
 &kp Q      &kp W         &kp E     &kp R           &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D     &kp F           &kp G                                         &kp H        &kp J  &kp K      &kp L    &mt SEMI SINGLE_QUOTE
-&kp Z      &kp X         &kp C     &kp V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(SLASH)
+&kp A      &kp S         &kp D     &kp F           &kp G                                         &kp H        &kp J  &kp K      &kp L    &kp TAB
+&kp Z      &kp X         &kp C     &kp V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &lt 4 LS(SLASH)
 &lt 7 TAB  &kp LEFT_WIN  &kp LALT  &kp LEFT_SHIFT  &lt 1 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 2 SPACE                             &kp LA(GRAVE)
             >;
         };
