@@ -19,6 +19,31 @@
     quick-tap-ms = <150>;
 };
 
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+  macros {
+    underscore: underscore {
+      compatible = "zmk,behavior-macro";
+      label = "UNDERSCORE";
+      #binding-cells = <0>;
+      waits-ms = <0>;
+      tap-ms = <0>;
+      bindings = <&macro_tap &unicode 0x005F>; // '_' の Unicode
+    };
+
+    pipechar: pipechar {
+      compatible = "zmk,behavior-macro";
+      label = "PIPECHAR";
+      #binding-cells = <0>;
+      waits-ms = <0>;
+      tap-ms = <0>;
+      bindings = <&macro_tap &unicode 0x007C>; // '|' の Unicode
+    };
+  };
+
+
 &mt {
     tapping-term-ms = <200>;
     flavor = "tap-preferred";
