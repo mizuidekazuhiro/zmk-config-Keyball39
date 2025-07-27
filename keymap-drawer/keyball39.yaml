@@ -139,8 +139,8 @@ layers:
   - _
   - {t: '=', s: +}
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: '}', h: 'Sft+]'}
+  - {t: \, h: Sft+\, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
