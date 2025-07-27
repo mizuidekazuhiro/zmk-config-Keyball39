@@ -39,9 +39,9 @@ layers:
   - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - {t: Alt+`, h: 'Sft+$$mdi:apple-keyboard-control$$', s: Alt+~}
+  - Sft+$$mdi:apple-keyboard-control$$
   adj:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Alt+`, s: Alt+~}
   - Alt+F4
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+R
