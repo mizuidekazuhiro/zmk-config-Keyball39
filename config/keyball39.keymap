@@ -134,10 +134,10 @@
 
         adjustment {
             bindings = <
-&trans  &trans           &trans  &kp RA(F4)     &trans                           &trans  &trans    &trans    &trans     &trans
-&trans  &kp PRINTSCREEN  &trans  &trans         &trans                           &trans  &kp LEFT  &kp UP    &kp RIGHT  &kp TAB
-&trans  &trans           &trans  &kp LS(LC(V))  &trans                           &trans  &trans    &kp DOWN  &trans     &trans
-&trans  &trans           &trans  &trans         &kp DELETE  &mo 4  &kp LEFT_ALT  &trans                                 &trans
+&trans  &trans           &trans  &kp RA(F4)     &kp LEFT_SHIFT                       &trans  &trans    &trans    &trans     &trans
+&trans  &kp PRINTSCREEN  &trans  &trans         &trans                               &trans  &kp LEFT  &kp UP    &kp RIGHT  &kp TAB
+&trans  &trans           &trans  &kp LS(LC(V))  &trans                               &trans  &trans    &kp DOWN  &trans     &trans
+&trans  &trans           &trans  &trans         &kp DELETE      &mo 4  &kp LEFT_ALT  &trans                                 &trans
             >;
 
             label = "adj";
