@@ -126,7 +126,7 @@ layers:
   - F3
   - F4
   - $$mdi:apple-keyboard-shift$$
-  - '|'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
   - F8
   - F9
@@ -136,7 +136,7 @@ layers:
   - F7
   - F8
   - {t: '$$mdi:transfer$$', type: trans}
-  - NUBS
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
   - F5
   - F6
@@ -285,7 +285,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+F4
-  - $$mdi:apple-keyboard-shift$$
+  - Ctl+$$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -295,7 +295,7 @@ layers:
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
@@ -305,11 +305,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+V
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
