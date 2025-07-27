@@ -66,19 +66,19 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q  &kp W         &kp E     &kp R            &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S         &kp D     &kp F            &kp G                                        &kp H        &kp J  &kp K      &kp L    &lt 4 TAB
-&kp Z  &kp X         &kp C     &kp V            &kp B                                        &kp N        &kp M  &kp COMMA  &kp DOT  &kp LS(SLASH)
-&mo 1  &kp LEFT_WIN  &kp LALT  &lt 2 BACKSPACE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                             &mt LS(LEFT_CONTROL) LA(GRAVE)
+&kp Q  &kp W         &kp E     &kp R             &kp T                                       &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S         &kp D     &kp F             &kp G                                       &kp H        &kp J  &kp K      &kp L    &lt 4 TAB
+&kp Z  &kp X         &kp C     &kp V             &kp B                                       &kp N        &kp M  &kp COMMA  &kp DOT  &kp LS(SLASH)
+&mo 1  &kp LEFT_WIN  &kp LALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp ENTER  &lt 3 SPACE                             &mt LS(LEFT_CONTROL) LA(GRAVE)
             >;
         };
 
         adjustment {
             bindings = <
-&trans  &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LC(LEFT_SHIFT)                    &trans        &trans       &kp LS(LC(I))  &trans         &kp ESC
-&trans  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                      &trans        &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
-&trans  &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                        &trans        &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
-&trans  &trans           &trans  &trans         &kp DELETE          &mo 6  &kp ENTER  &kp LEFT_ALT                                             &trans
+&trans  &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LC(LEFT_SHIFT)                         &trans        &trans       &kp LS(LC(I))  &trans         &kp ESC
+&trans  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &trans        &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
+&trans  &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &trans        &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
+&trans  &trans           &trans  &kp BACKSPACE  &mo 6               &kp DELETE  &kp ENTER  &kp LEFT_ALT                                             &trans
             >;
 
             label = "adj";
