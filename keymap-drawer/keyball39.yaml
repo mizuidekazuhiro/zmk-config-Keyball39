@@ -34,9 +34,9 @@ layers:
   - adj
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', h: NUM}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - {t: Alt+`, h: 'Sft+$$mdi:apple-keyboard-control$$', s: Alt+~}
@@ -74,9 +74,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - FUN
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -114,9 +114,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+<
   - Sft+Ctl+>
-  - {t: '$$mdi:keyboard-esc$$', type: held}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RETURN
   - {t: '0', s: )}
   - KP DIVIDE
@@ -275,8 +275,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
