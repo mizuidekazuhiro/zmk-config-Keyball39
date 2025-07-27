@@ -34,9 +34,9 @@ layers:
   - adj
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', h: NUM}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - Sft+$$mdi:apple-keyboard-control$$
@@ -75,8 +75,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - FUN
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,8 +115,8 @@ layers:
   - Sft+Ctl+<
   - Sft+Ctl+>
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RETURN
   - {t: '0', s: )}
   - KP DIVIDE
