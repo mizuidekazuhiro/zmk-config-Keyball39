@@ -131,7 +131,7 @@ layers:
   - '*'
   - (
   - {t: '-', s: _}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -171,20 +171,20 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-up$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
   - '&mkp MB4'
