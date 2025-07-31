@@ -17,10 +17,10 @@ layers:
   - F
   - G
   - H
-  - J
+  - {t: J, h: INT KATAKANAHIRAGANA}
   - K
   - L
-  - {t: MOUSE, h: toggle}
+  - MOUSE
   - Z
   - X
   - C
@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+R
   - {t: Alt+`, s: Alt+~}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: MOUSE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
@@ -180,7 +180,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:pan-up$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
@@ -220,7 +220,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -300,7 +300,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
