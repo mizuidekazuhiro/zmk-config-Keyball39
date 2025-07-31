@@ -92,16 +92,16 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q  &kp W    &kp E     &kp R           &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S    &kp D     &kp F           &kp G                                         &kp H        &kp J  &kp K      &kp L    &tog 4
-&kp Z  &kp X    &kp C     &kp V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mo 1  &kp TAB  &kp LALT  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                             &kp LS(LEFT_CONTROL)
+&kp Q  &kp W    &kp E     &kp R           &kp T                                         &kp Y        &kp U                       &kp I      &kp O    &kp P
+&kp A  &kp S    &kp D     &kp F           &kp G                                         &kp H        &mt INT_KATAKANAHIRAGANA J  &kp K      &kp L    &mo 4
+&kp Z  &kp X    &kp C     &kp V           &kp B                                         &kp N        &kp M                       &kp COMMA  &kp DOT  &kp SLASH
+&mo 1  &kp TAB  &kp LALT  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                                  &kp LS(LEFT_CONTROL)
             >;
         };
 
         adjustment {
             bindings = <
-&none   &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &trans        &trans       &kp LS(LC(I))  &trans         &kp ESC
+&none   &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &tog 4        &trans       &kp LS(LC(I))  &trans         &kp ESC
 &trans  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &trans        &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
 &trans  &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &trans        &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
 &trans  &trans           &trans  &mo 6          &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                             &trans
