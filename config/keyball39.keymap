@@ -114,7 +114,7 @@
             label = "NUM";
             bindings = <
 &kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt TAB KP_PLUS
 &kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
 &trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
@@ -153,10 +153,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&none   &none   &none   &none   &kp LEFT_SHIFT                       &none   &kp F7  &kp F8  &kp F9  &kp F10
-&none   &none   &none   &none   &kp LEFT_CONTROL                     &none   &kp F4  &kp F5  &kp F6  &kp F11
-&none   &none   &none   &none   &kp LALT                             &none   &none   &kp F2  &kp F3  &kp F12
-&trans  &trans  &trans  &trans  &trans            &trans  &kp ENTER  &trans                          &trans
+&none           &none   &none   &none   &kp LEFT_SHIFT                       &none   &kp F7  &kp F8  &kp F9  &kp F10
+&bt BT_CLR_ALL  &none   &none   &none   &kp LEFT_CONTROL                     &none   &kp F4  &kp F5  &kp F6  &kp F11
+&none           &none   &none   &none   &kp LALT                             &none   &none   &kp F2  &kp F3  &kp F12
+&trans          &trans  &trans  &trans  &trans            &trans  &kp ENTER  &trans                          &trans
             >;
         };
 
