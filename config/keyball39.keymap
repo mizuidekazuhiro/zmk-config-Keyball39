@@ -98,15 +98,17 @@
                 <&kp KP_PLUS>,
                 <&kp KP_MINUS>,
                 <&kp KP_ASTERISK>,
-                <&kp KP_ASTERISK>,
+                <&kp KP_DIVIDE>,
                 <&kp KP_EQUAL>;
+
+            tapping-term-ms = <270>;
         };
 
         paste_paste: paste_paste {
             compatible = "zmk,behavior-tap-dance";
             label = "PASTE_PASTE";
             #binding-cells = <0>;
-            bindings = <&kp LC(P)>, <&kp LS(LC(P))>;
+            bindings = <&kp LC(V)>, <&kp LS(LC(V))>;
         };
     };
 
