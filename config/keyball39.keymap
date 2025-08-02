@@ -89,6 +89,25 @@
             #binding-cells = <0>;
             bindings = <&kp E>, <&kp RA(GRAVE)>;
         };
+
+        shisokuenzan: shisokuenzan {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHISOKUENZAN";
+            #binding-cells = <0>;
+            bindings =
+                <&kp KP_PLUS>,
+                <&kp KP_MINUS>,
+                <&kp KP_ASTERISK>,
+                <&kp KP_ASTERISK>,
+                <&kp KP_EQUAL>;
+        };
+
+        paste_paste: paste_paste {
+            compatible = "zmk,behavior-tap-dance";
+            label = "PASTE_PASTE";
+            #binding-cells = <0>;
+            bindings = <&kp LC(P)>, <&kp LS(LC(P))>;
+        };
     };
 
     macros {
@@ -143,7 +162,7 @@
 
         adjustment {
             bindings = <
-&none   &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &to 4         &trans       &kp LS(LC(I))  &trans         &kp ESC
+&none   &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &to 4         &trans       &kp LS(LC(I))  &trans         &none
 &trans  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &trans        &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
 &trans  &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &trans        &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
 &trans  &trans           &trans  &mo 6          &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                             &trans
@@ -214,10 +233,10 @@
 
         layer_8 {
             bindings = <
-&trans  &kp N7  &kp N8  &kp N9  &trans                     &none           &trans     &trans    &trans     &trans
-&trans  &kp N4  &kp N5  &kp N6  &trans                     &trans          &kp LEFT   &kp UP    &kp RIGHT  &kp TAB
-&kp N0  &kp N1  &kp N2  &kp N3  &trans                     &trans          &kp PG_UP  &kp DOWN  &kp PG_DN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER  &kp LEFT_SHIFT                                  &trans
+&trans  &kp N7          &kp N8          &kp N9  &kp PERCENT                     &kp LC(C)       &paste_paste  &trans    &trans     &shisokuenzan
+&trans  &kp N4          &kp N5          &kp N6  &trans                          &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
+&kp N0  &kp N1          &kp N2          &kp N3  &trans                          &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
+&trans  &kp LS(LC(LT))  &kp LS(LC(GT))  &none   &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
             >;
         };
     };
