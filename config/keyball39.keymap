@@ -80,7 +80,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "J_HIRAKANA";
             #binding-cells = <0>;
-            bindings = <&kp J>, <&kp LANG_HIRAGANA>;
+            bindings = <&kp J>, <&kp INT_KATAKANAHIRAGANA>;
         };
 
         e_eigo: e_eigo {
