@@ -145,6 +145,11 @@
             bindings = <&mkp MB1>;
             key-positions = <26 27>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
@@ -156,7 +161,7 @@
 &kp Q  &kp W             &e_eigo   &kp R           &mt LA(GRAVE) T                               &kp Y        &kp U        &kp I      &kp O    &kp P
 &kp A  &kp S             &kp D     &kp F           &kp G                                         &kp H        &j_hirakana  &kp K      &kp L    &mo 4
 &kp Z  &kp X             &kp C     &kp V           &kp B                                         &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH
-&mo 1  &mt LEFT_GUI TAB  &kp LALT  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                   &kp LS(LEFT_CONTROL)
+&mo 1  &mt LEFT_GUI TAB  &kp LALT  &kp LEFT_SHIFT  &lt 8 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                   &kp LS(LEFT_CONTROL)
             >;
         };
 
@@ -172,20 +177,21 @@
         };
 
         number_layer {
-            label = "NUM";
             bindings = <
-&kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt TAB KP_PLUS
-&kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
-&trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
+&trans  &kp N7          &kp N8          &kp N9  &kp PERCENT                           &kp LC(C)       &paste_paste  &kp F2    &kp F4     &shisokuenzan
+&trans  &kp N4          &kp N5          &kp N6  &mt LS(N9) LS(N8)                     &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
+&kp N0  &kp N1          &kp N2          &kp N3  &trans                                &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
+&trans  &kp LS(LC(LT))  &kp LS(LC(GT))  &none   &trans             &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
             >;
+
+            label = "NUM";
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                             &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS                 &kp MINUS
-&none            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp LEFT_SHIFT                          &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(BACKSLASH) BACKSLASH
+&mo 7            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &kp LEFT_SHIFT                          &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(BACKSLASH) BACKSLASH
 &trans           &trans        &trans        &trans        &trans                                  &kp JP_UNDERSCORE  &kp JP_PIPE    &trans            &trans                               &mt SEMICOLON SQT
 &trans           &trans        &trans        &trans        &trans          &kp LEFT_SHIFT  &trans  &trans                                                                                   &trans
             >;
@@ -231,12 +237,13 @@
             >;
         };
 
-        layer_8 {
+        number_layer_ {
+            label = "NUM_";
             bindings = <
-&trans  &kp N7          &kp N8          &kp N9  &kp PERCENT                     &kp LC(C)       &paste_paste  &trans    &trans     &shisokuenzan
-&trans  &kp N4          &kp N5          &kp N6  &trans                          &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
-&kp N0  &kp N1          &kp N2          &kp N3  &trans                          &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&trans  &kp LS(LC(LT))  &kp LS(LC(GT))  &none   &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
+&kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt TAB KP_PLUS
+&kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
+&trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
         };
     };
