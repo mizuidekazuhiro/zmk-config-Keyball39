@@ -183,7 +183,7 @@
 &kp PLUS   &kp N7          &kp N8          &kp N9  &kp PERCENT                           &kp LC(C)       &paste_paste  &kp F2    &kp F4     &shisokuenzan
 &kp MINUS  &kp N4          &kp N5          &kp N6  &mt LS(N9) LS(N8)                     &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
 &kp N0     &kp N1          &kp N2          &kp N3  &trans                                &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&trans     &kp LS(LC(LT))  &kp LS(LC(GT))  &none   &trans             &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
+&mo 6      &kp LS(LC(LT))  &kp LS(LC(GT))  &none   &trans             &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
             >;
 
             label = "NUM";
@@ -222,20 +222,20 @@
         function_layer {
             label = "FUN";
             bindings = <
-&none           &none   &none   &none   &kp LEFT_SHIFT                       &none   &kp F7  &kp F8  &kp F9  &kp F10
-&bt BT_CLR_ALL  &none   &none   &none   &kp LEFT_CONTROL                     &none   &kp F4  &kp F5  &kp F6  &kp F11
-&none           &none   &none   &none   &kp LALT                             &none   &none   &kp F2  &kp F3  &kp F12
-&trans          &trans  &trans  &trans  &trans            &trans  &kp ENTER  &trans                          &trans
+&none   &kp F7  &kp F8  &kp F9  &kp LEFT_SHIFT                       &none   &kp F7  &kp F8  &kp F9  &kp F10
+&none   &kp F4  &kp F5  &kp F6  &kp LEFT_CONTROL                     &none   &kp F4  &kp F5  &kp F6  &kp F11
+&none   &none   &kp F2  &kp F3  &kp LALT                             &none   &none   &kp F2  &kp F3  &kp F12
+&trans  &trans  &trans  &trans  &trans            &trans  &kp ENTER  &trans                          &trans
             >;
         };
 
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &bootloader  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                               &trans
+&bt BT_CLR_ALL  &trans  &trans  &trans  &bootloader                  &bootloader  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans       &trans  &trans  &trans                               &trans
             >;
         };
 
