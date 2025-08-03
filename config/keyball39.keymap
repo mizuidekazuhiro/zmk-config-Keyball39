@@ -138,7 +138,7 @@
         };
 
         muhenkan {
-            bindings = <&kp LANG_ZENKAKUHANKAKU>;
+            bindings = <&kp INTERNATIONAL_1>;
             key-positions = <3 4>;
         };
     };
