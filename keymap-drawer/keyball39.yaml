@@ -362,7 +362,7 @@ layers:
   - KP DIVIDE
 combos:
 - p: [0, 1]
-  k: Ctl+$$mdi:keyboard-esc$$
+  k: $$mdi:keyboard-esc$$
 - p: [18, 19]
   k: $$mdi:keyboard-tab$$
 - p: [16, 17]
