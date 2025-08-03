@@ -497,13 +497,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -730,13 +730,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -978,13 +978,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -1218,13 +1218,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -1450,13 +1450,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -1672,13 +1672,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -1893,13 +1893,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -2116,13 +2116,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
@@ -2356,13 +2356,13 @@ rect.held, rect.combo.held {
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
 <text x="532" y="39" class="combo tap">
-<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+<tspan x="532" dy="-0.6em" style="font-size: 75%">LANGUAGE</tspan><tspan x="532" dy="1.2em" style="font-size: 75%">1</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
 <text x="224" y="39" class="combo tap">
-<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+<tspan x="224" dy="-0.6em" style="font-size: 60%">JP</tspan><tspan x="224" dy="1.2em" style="font-size: 60%">EISUqqqqq…</tspan>
 </text>
 </g>
 </g>
