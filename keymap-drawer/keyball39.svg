@@ -494,6 +494,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 344)" class="layer-adj">
@@ -714,6 +726,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -951,6 +975,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1031)" class="layer-SYM">
@@ -1179,6 +1215,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1375)" class="layer-MOUSE">
@@ -1399,6 +1447,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1719)" class="layer-SCROLL">
@@ -1609,6 +1669,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2063)" class="layer-FUN">
@@ -1817,6 +1889,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2028,6 +2112,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2256,6 +2352,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="574" y="75" width="28" height="26" class="combo"/>
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="579" y="79" height="18" width="18.0" class="combo tap glyph mdi:mouse-left-click-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="518" y="26" width="28" height="26" class="combo"/>
+<text x="532" y="39" class="combo tap">
+<tspan x="532" dy="-0.6em">INT</tspan><tspan x="532" dy="1.2em">HENKAN</tspan>
+</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="210" y="26" width="28" height="26" class="combo"/>
+<text x="224" y="39" class="combo tap">
+<tspan x="224" dy="-0.6em" style="font-size: 75%">INT</tspan><tspan x="224" dy="1.2em" style="font-size: 75%">MUHENKAN</tspan>
+</text>
 </g>
 </g>
 </g>
