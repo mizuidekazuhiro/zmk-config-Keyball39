@@ -131,6 +131,16 @@
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
         };
+
+        henkan {
+            bindings = <&kp INT_HENKAN>;
+            key-positions = <5 6>;
+        };
+
+        muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
