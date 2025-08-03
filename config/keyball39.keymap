@@ -118,7 +118,7 @@
         compatible = "zmk,combos";
 
         esc {
-            bindings = <&kp LC(ESCAPE)>;
+            bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
 
