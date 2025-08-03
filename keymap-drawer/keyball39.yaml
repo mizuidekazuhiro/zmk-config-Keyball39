@@ -3,9 +3,9 @@ layers:
   QWRT:
   - Q
   - W
-  - '&e_eigo'
+  - E
   - R
-  - {t: T, h: Alt+`}
+  - T
   - Y
   - U
   - I
@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - H
-  - '&j_hirakana'
+  - J
   - K
   - L
   - MOUSE
@@ -363,7 +363,7 @@ layers:
 combos:
 - p: [0, 1]
   k: Ctl+$$mdi:keyboard-esc$$
-- p: [26, 27]
-  k: '&mkp MB1'
 - p: [18, 19]
   k: $$mdi:keyboard-tab$$
+- p: [16, 17]
+  k: $$mdi:mouse-left-click-outline$$
