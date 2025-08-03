@@ -371,3 +371,7 @@ combos:
   k: INT KATAKANAHIRAGANA
 - p: [3, 4]
   k: Alt+`
+- p: [7, 8, 9]
+  k: HOME
+- p: [17, 18, 19]
+  k: END
