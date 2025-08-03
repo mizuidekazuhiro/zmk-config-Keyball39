@@ -138,7 +138,7 @@
         };
 
         muhenkan {
-            bindings = <&kp JP_EISUqqqqqqqqqqqqqqqqqqqqqqqqq>;
+            bindings = <&kp JP_EISU>;
             key-positions = <3 4>;
         };
     };
