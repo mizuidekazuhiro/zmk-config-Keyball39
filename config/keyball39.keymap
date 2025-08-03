@@ -76,20 +76,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        j_hirakana: j_hirakana {
-            compatible = "zmk,behavior-tap-dance";
-            label = "J_HIRAKANA";
-            #binding-cells = <0>;
-            bindings = <&kp J>, <&kp INT_KATAKANAHIRAGANA>;
-        };
-
-        e_eigo: e_eigo {
-            compatible = "zmk,behavior-tap-dance";
-            label = "E_EIGO";
-            #binding-cells = <0>;
-            bindings = <&kp E>, <&kp RA(GRAVE)>;
-        };
-
         shisokuenzan: shisokuenzan {
             compatible = "zmk,behavior-tap-dance";
             label = "SHISOKUENZAN";
@@ -136,14 +122,14 @@
             key-positions = <0 1>;
         };
 
-        mouse_click {
-            bindings = <&mkp MB1>;
-            key-positions = <26 27>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <18 19>;
+        };
+
+        click {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
         };
     };
 
@@ -153,10 +139,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q  &kp W             &e_eigo   &kp R           &mt LA(GRAVE) T                               &kp Y        &kp U        &kp I      &kp O    &kp P
-&kp A  &kp S             &kp D     &kp F           &kp G                                         &kp H        &j_hirakana  &kp K      &kp L    &mo 4
-&kp Z  &kp X             &kp C     &kp V           &kp B                                         &kp N        &kp M        &kp COMMA  &kp DOT  &kp SLASH
-&mo 1  &mt LEFT_GUI TAB  &kp LALT  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                   &kp LS(LEFT_CONTROL)
+&kp Q  &kp W             &kp E     &kp R           &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S             &kp D     &kp F           &kp G                                         &kp H        &kp J  &kp K      &kp L    &mo 4
+&kp Z  &kp X             &kp C     &kp V           &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mo 1  &mt LEFT_GUI TAB  &kp LALT  &kp LEFT_SHIFT  &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                             &kp LS(LEFT_CONTROL)
             >;
         };
 
