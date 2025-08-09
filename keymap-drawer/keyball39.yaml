@@ -112,7 +112,7 @@ layers:
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - FUN
-  - Sft+Ctl+<
+  - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
   - Sft+Ctl+>
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
@@ -148,8 +148,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+0x87
   - Sft+0x89
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Sft+,', s: Sft+<}
+  - Sft+.
   - {t: '''', h: ;, s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
