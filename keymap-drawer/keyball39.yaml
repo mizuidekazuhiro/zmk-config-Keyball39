@@ -82,9 +82,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   NUM:
   - KP PLUS
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - KP 7
+  - KP 8
+  - KP 9
   - '%'
   - Ctl+C
   - '&paste_paste'
@@ -92,19 +92,19 @@ layers:
   - F4
   - '&shisokuenzan'
   - KP MINUS
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: Sft+8, h: Sft+9, s: Sft+*}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '0', s: )}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-tab$$
   - PG UP
@@ -370,7 +370,7 @@ combos:
 - p: [5, 6]
   k: INT KATAKANAHIRAGANA
 - p: [3, 4]
-  k: Alt+`
+  k: INTERNATIONAL 5
 - p: [7, 8, 9]
   k: HOME
 - p: [17, 18, 19]
