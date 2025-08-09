@@ -39,7 +39,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
-  - Sft+$$mdi:apple-keyboard-control$$
+  - Ctl+$$mdi:apple-keyboard-shift$$
   adj:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+F4
