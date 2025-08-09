@@ -96,6 +96,13 @@
             #binding-cells = <0>;
             bindings = <&kp LC(V)>, <&suuchinomi_paste>;
         };
+
+        kakko: kakko {
+            compatible = "zmk,behavior-tap-dance";
+            label = "KAKKO";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N8)>, <&kp LS(N9)>;
+        };
     };
 
     macros {
@@ -186,10 +193,10 @@
 
         number_layer {
             bindings = <
-&kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PERCENT                           &kp LC(C)       &paste_paste  &kp F2    &kp F4     &shisokuenzan
-&kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &mt LS(N9) LS(N8)                     &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans                                &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&mo 6            &kp LS(LC(LT))   &kp LS(LC(GT))   &none            &trans             &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
+&kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PERCENT                     &kp LC(C)       &paste_paste  &kp F2    &kp F4     &shisokuenzan
+&kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kakko                          &kp SPACE       &kp LEFT      &kp UP    &kp RIGHT  &kp RCTRL
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans                          &kp TAB         &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
+&mo 6            &kp LS(LC(LT))   &kp LS(LC(GT))   &none            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                     &trans
             >;
 
             label = "NUM";
