@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - FUN
   - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
-  - Sft+Ctl+>
+  - Sft+Ctl+.
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,11 +141,11 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', h: 'Sft+]', s: '}'}
   - {t: \, h: Sft+\, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - {t: Gui+5, s: Gui+%}
   - Sft+0x87
   - Sft+0x89
   - {t: 'Sft+,', s: Sft+<}
