@@ -166,7 +166,7 @@
             key-positions = <17 18 19>;
         };
 
-        left_click {
+        right_click {
             bindings = <&mkp RCLK>;
             key-positions = <17 18>;
         };
