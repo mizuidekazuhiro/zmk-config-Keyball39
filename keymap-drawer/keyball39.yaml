@@ -151,7 +151,7 @@ layers:
   - {t: 'Sft+,', s: Sft+<}
   - Sft+.
   - {t: '''', h: ;, s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - MUTE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
