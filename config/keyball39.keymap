@@ -165,6 +165,11 @@
             bindings = <&kp END>;
             key-positions = <17 18 19>;
         };
+
+        left_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <17 18>;
+        };
     };
 
     keymap {
