@@ -190,7 +190,7 @@
 &none   &kp LA(F4)       &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &to 4         &trans       &kp LS(LC(I))  &trans         &none
 &trans  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &shotai       &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
 &trans  &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &trans        &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
-&trans  &trans           &trans  &mo 6          &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                             &trans
+&trans  &trans           &trans  &none          &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                             &trans
             >;
 
             label = "adj";
