@@ -151,7 +151,7 @@ layers:
   - {t: 'Sft+,', s: Sft+<}
   - Sft+.
   - {t: '''', h: ;, s: '"'}
-  - MUTE
+  - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
