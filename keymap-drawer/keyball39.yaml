@@ -375,3 +375,5 @@ combos:
   k: HOME
 - p: [17, 18, 19]
   k: END
+- p: [17, 18]
+  k: $$mdi:mouse-right-click-outline$$
