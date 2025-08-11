@@ -42,7 +42,7 @@ layers:
   - Ctl+$$mdi:apple-keyboard-shift$$
   adj:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+F4
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+R
   - {t: Alt+`, s: Alt+~}
@@ -377,3 +377,5 @@ combos:
   k: END
 - p: [17, 18]
   k: $$mdi:mouse-right-click-outline$$
+- p: [0, 9]
+  k: AltGr+F4
