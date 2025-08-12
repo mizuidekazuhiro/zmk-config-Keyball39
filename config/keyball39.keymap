@@ -80,12 +80,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHISOKUENZAN";
             #binding-cells = <0>;
-            bindings =
-                <&kp KP_PLUS>,
-                <&kp KP_MINUS>,
-                <&kp KP_ASTERISK>,
-                <&kp KP_DIVIDE>,
-                <&kp KP_EQUAL>;
+            bindings = <&kp KP_ASTERISK>, <&kp KP_DIVIDE>, <&kp KP_EQUAL>;
 
             tapping-term-ms = <270>;
         };
