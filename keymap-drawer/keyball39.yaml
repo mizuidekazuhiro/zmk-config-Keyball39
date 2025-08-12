@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+R
   - {t: Alt+`, s: Alt+~}
-  - {t: MOUSE, h: toggle}
+  - '&soushinsumi_folder_idou'
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
@@ -66,7 +66,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+V
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: MOUSE, h: toggle}
   - PgUp
   - $$mdi:arrow-down-bold$$
   - PgDn
