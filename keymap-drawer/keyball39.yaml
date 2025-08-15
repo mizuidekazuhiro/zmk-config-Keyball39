@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - MOUSE
+  - {t: '-', h: MOUSE, s: _}
   - Z
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - {t: /, s: '?'}
   - adj
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:apple-keyboard-option$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: NUM}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -193,7 +193,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -313,7 +313,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -367,9 +367,9 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [16, 17]
   k: $$mdi:mouse-left-click-outline$$
-- p: [5, 6]
+- p: [16, 17, 18]
   k: INT KATAKANAHIRAGANA
-- p: [3, 4]
+- p: [11, 13, 12]
   k: INTERNATIONAL 5
 - p: [7, 8, 9]
   k: HOME
