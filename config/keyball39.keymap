@@ -150,12 +150,12 @@
 
         IME_on {
             bindings = <&kp INT_KATAKANAHIRAGANA>;
-            key-positions = <5 6>;
+            key-positions = <16 17 18>;
         };
 
         IME_change {
             bindings = <&kp INTERNATIONAL_5>;
-            key-positions = <3 4>;
+            key-positions = <11 13 12>;
         };
 
         home {
@@ -185,10 +185,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q  &kp W             &kp E     &kp R            &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S             &kp D     &kp F            &kp G                                        &kp H        &kp J  &kp K      &kp L    &mo 4
-&kp Z  &kp X             &kp C     &kp V            &kp B                                        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mo 1  &mt LEFT_GUI TAB  &kp LALT  &lt 2 BACKSPACE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                             &kp LC(LEFT_SHIFT)
+&kp Q  &kp W             &kp E           &kp R            &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S             &kp D           &kp F            &kp G                                        &kp H        &kp J  &kp K      &kp L    &lt 4 MINUS
+&kp Z  &kp X             &kp C           &kp V            &kp B                                        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mo 1  &mt LEFT_GUI TAB  &lt 4 LEFT_ALT  &lt 2 BACKSPACE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                             &kp LC(LEFT_SHIFT)
             >;
         };
 
