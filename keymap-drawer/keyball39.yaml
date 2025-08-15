@@ -100,13 +100,13 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-tab$$
   - KP 0
   - KP 1
   - KP 2
   - KP 3
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-control$$
   - PG UP
   - $$mdi:arrow-down-bold$$
   - PG DN
