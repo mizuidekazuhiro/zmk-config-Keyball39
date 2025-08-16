@@ -41,8 +41,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - Ctl+$$mdi:apple-keyboard-shift$$
   adj:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+R
   - {t: Alt+`, s: Alt+~}
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
@@ -114,7 +114,7 @@ layers:
   - FUN
   - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
   - Sft+Ctl+.
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
@@ -260,7 +260,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: KP PLUS, h: '$$mdi:keyboard-tab$$'}
+  - KP PLUS
   - $$mdi:keyboard-space$$
   - PgUp
   - $$mdi:arrow-down-bold$$
