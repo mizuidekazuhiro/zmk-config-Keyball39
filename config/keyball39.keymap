@@ -204,7 +204,7 @@
 &trans     &trans           &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &soushinsumi_folder_idou  &trans       &kp LS(LC(I))  &trans         &trans
 &kp LG(A)  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &shotai                   &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
 &trans     &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &tog 4                    &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
-&trans     &trans           &trans  &kp DELETE     &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                                         &trans
+&trans     &trans           &trans  &kp ESCAPE     &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                                         &trans
             >;
 
             label = "adj";
@@ -254,10 +254,10 @@
         Ten_Key {
             label = "Ten_Key";
             bindings = <
-&trans  &kp F2                 &trans                    &kp F4         &kp PERCENT                      &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&trans  &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &auto_kakko                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
-&trans  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &trans                           &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
-&trans  &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans         &trans       &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
+&trans  &kp F2                 &trans                    &kp F4         &kp PERCENT                      &kp PERCENT        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&trans  &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &auto_kakko                      &kp RIGHT_CONTROL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&trans  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &trans                           &kp RIGHT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &shisokuenzan
+&trans  &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans         &trans       &trans  &kp RETURN  &kp N0                                                       &kp KP_DIVIDE
             >;
         };
 
