@@ -34,8 +34,8 @@ layers:
   - adj
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Ten_Key}
   - {t: '$$mdi:backspace$$', h: NUM}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
@@ -114,8 +114,8 @@ layers:
   - FUN
   - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
   - Sft+Ctl+.
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
@@ -240,6 +240,46 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  Ten_Key:
+  - $$mdi:apple-keyboard-option$$
+  - F2
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F4
+  - '%'
+  - Sft+$$mdi:apple-keyboard-control$$
+  - '7'
+  - '8'
+  - '9'
+  - KP MINUS
+  - $$mdi:keyboard-tab$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: Sft+8, h: Sft+9, s: Sft+*}
+  - $$mdi:apple-keyboard-control$$
+  - '4'
+  - '5'
+  - '6'
+  - {t: KP PLUS, h: '$$mdi:keyboard-tab$$'}
+  - $$mdi:keyboard-space$$
+  - PgUp
+  - $$mdi:arrow-down-bold$$
+  - PgDn
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
+  - '1'
+  - '2'
+  - '3'
+  - KP ASTERISK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Ctl+<
+  - Sft+Ctl+>
+  - {t: '$$mdi:keyboard-esc$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RETURN
+  - {t: '0', s: )}
+  - KP DIVIDE
   FUN:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
@@ -274,8 +314,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -320,46 +360,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  NUM_:
-  - $$mdi:apple-keyboard-option$$
-  - F2
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F4
-  - '%'
-  - Sft+$$mdi:apple-keyboard-control$$
-  - '7'
-  - '8'
-  - '9'
-  - KP MINUS
-  - $$mdi:keyboard-tab$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: Sft+8, h: Sft+9, s: Sft+*}
-  - $$mdi:apple-keyboard-control$$
-  - '4'
-  - '5'
-  - '6'
-  - {t: KP PLUS, h: '$$mdi:keyboard-tab$$'}
-  - $$mdi:keyboard-space$$
-  - PgUp
-  - $$mdi:arrow-down-bold$$
-  - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - '1'
-  - '2'
-  - '3'
-  - KP ASTERISK
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Ctl+<
-  - Sft+Ctl+>
-  - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RETURN
-  - {t: '0', s: )}
-  - KP DIVIDE
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
