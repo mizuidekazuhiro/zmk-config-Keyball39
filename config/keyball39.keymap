@@ -210,15 +210,15 @@
             label = "adj";
         };
 
-        number_layer {
+        Cursor_layer {
             bindings = <
-&kp KP_PLUS      &kp KP_NUMBER_7    &kp KP_NUMBER_8     &kp KP_NUMBER_9  &kp PERCENT                     &kp LC(C)         &paste_paste  &kp F2    &kp F4     &shisokuenzan
-&kp KP_MINUS     &kp KP_NUMBER_4    &kp KP_NUMBER_5     &kp KP_NUMBER_6  &kakko                          &kp SPACE         &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
-&kp KP_NUMBER_0  &kp KP_NUMBER_1    &kp KP_NUMBER_2     &kp KP_NUMBER_3  &trans                          &kp LEFT_CONTROL  &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&mo 7            &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans           &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
+&trans     &trans             &trans              &trans            &kp PERCENT                     &kp LC(C)         &paste_paste  &kp F2    &kp F4     &shisokuenzan
+&kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp LEFT_CONTROL  &auto_kakko                     &kp SPACE         &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
+&trans     &trans             &trans              &trans            &trans                          &kp LEFT_CONTROL  &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
+&mo 7      &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
             >;
 
-            label = "NUM";
+            label = "Cursor";
         };
 
         symbol_layer {
@@ -254,10 +254,10 @@
         Ten_Key {
             label = "Ten_Key";
             bindings = <
-&kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
-&kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
-&trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
+&trans  &kp F2                 &trans                    &kp F4         &kp PERCENT                      &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&trans  &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &auto_kakko                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&trans  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &trans                           &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
+&trans  &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans         &trans       &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
         };
 
