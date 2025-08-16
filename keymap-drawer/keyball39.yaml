@@ -36,7 +36,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: MOUSE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Ten_Key}
   - {t: '$$mdi:backspace$$', h: Cursor}
-  - MOUSE
+  - {t: INTERNATIONAL 2, h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - Ctl+$$mdi:apple-keyboard-shift$$
@@ -367,9 +367,9 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [16, 17]
   k: $$mdi:mouse-left-click-outline$$
-- p: [16, 17, 18]
+- p: [16, 17]
   k: INT KATAKANAHIRAGANA
-- p: [11, 13, 12]
+- p: [13, 12]
   k: INTERNATIONAL 5
 - p: [7, 8, 9]
   k: HOME
