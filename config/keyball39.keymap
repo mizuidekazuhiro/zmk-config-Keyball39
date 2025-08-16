@@ -41,7 +41,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <240>;
+    tapping-term-ms = <200>;
     flavor = "balanced";
     quick-tap-ms = <150>;
 };
@@ -192,10 +192,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q             &kp W             &kp E           &kp R               &kp T                                        &kp Y        &kp U                &kp I            &kp O            &kp P
-&mt LEFT_SHIFT A  &mt LEFT_GUI S    &mt LEFT_ALT D  &mt LEFT_CONTROL F  &kp G                                        &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RIGHT_SHIFT MINUS
-&kp Z             &kp X             &kp C           &kp V               &kp B                                        &kp N        &kp M                &kp COMMA        &kp DOT          &kp SLASH
-&mo 1             &mt LEFT_GUI TAB  &lt 4 LEFT_ALT  &lt 2 BACKSPACE     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                                         &kp LC(LEFT_SHIFT)
+&kp Q             &kp W             &kp E           &kp R               &kp T                                         &kp Y        &kp U                &kp I            &kp O            &kp P
+&mt LEFT_SHIFT A  &mt LEFT_GUI S    &mt LEFT_ALT D  &mt LEFT_CONTROL F  &kp G                                         &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RIGHT_SHIFT MINUS
+&kp Z             &kp X             &kp C           &kp V               &kp B                                         &kp N        &kp M                &kp COMMA        &kp DOT          &kp SLASH
+&mo 1             &mt LEFT_GUI TAB  &lt 4 LEFT_ALT  &lt 6 DELETE        &lt 2 BACKSPACE  &kp LEFT_CONTROL  &kp ENTER  &lt 3 SPACE                                                         &kp LC(LEFT_SHIFT)
             >;
         };
 
@@ -215,7 +215,7 @@
 &kp KP_PLUS      &kp KP_NUMBER_7    &kp KP_NUMBER_8     &kp KP_NUMBER_9  &kp PERCENT                     &kp LC(C)         &paste_paste  &kp F2    &kp F4     &shisokuenzan
 &kp KP_MINUS     &kp KP_NUMBER_4    &kp KP_NUMBER_5     &kp KP_NUMBER_6  &kakko                          &kp SPACE         &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
 &kp KP_NUMBER_0  &kp KP_NUMBER_1    &kp KP_NUMBER_2     &kp KP_NUMBER_3  &trans                          &kp LEFT_CONTROL  &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&mo 6            &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &none            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
+&mo 7            &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &none            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
             >;
 
             label = "NUM";
@@ -225,7 +225,7 @@
             label = "SYM";
             bindings = <
 &kp EXCLAMATION   &kp AT_SIGN       &kp HASH          &kp DOLLAR        &kp PERCENT                               &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS                 &kp MINUS
-&mo 7             &none             &none             &none             &none                                     &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(BACKSLASH) BACKSLASH
+&mo 8             &none             &none             &none             &none                                     &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(BACKSLASH) BACKSLASH
 &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)                                &kp JP_UNDERSCORE  &kp JP_PIPE    &kp LS(COMMA)     &kp LS(PERIOD)                       &mt SEMICOLON SQT
 &kp C_MUTE        &trans            &trans            &kp BACKSPACE     &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans  &trans                                                                                   &trans
             >;
@@ -237,7 +237,7 @@
 &mo 5  &none           &kp LS(LEFT_CONTROL)  &kp LEFT_SHIFT  &kp LEFT_CONTROL                     &to 0          &none      &none           &none      &none
 &none  &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT       &none                                &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
 &none  &none           &kp DOWN              &none           &none                                &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
-&none  &trans          &trans                &kp BACKSPACE   &kp LEFT_SHIFT    &kp RCTRL  &trans  &mo 7                                                &none
+&none  &trans          &trans                &kp BACKSPACE   &kp LEFT_SHIFT    &kp RCTRL  &trans  &mo 8                                                &none
             >;
         };
 
@@ -248,6 +248,16 @@
 &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        Ten_Key {
+            label = "Ten_Key";
+            bindings = <
+&kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt TAB KP_PLUS
+&kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
+&trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
         };
 
@@ -268,16 +278,6 @@
 &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                  &trans       &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans                        &trans       &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &trans        &trans  &trans  &trans                               &trans
-            >;
-        };
-
-        number_layer_ {
-            label = "NUM_";
-            bindings = <
-&kp LEFT_ALT  &kp F2                 &none                     &kp F4         &kp PERCENT                            &kp RS(RIGHT_CONTROL)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp TAB       &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &mt LS(N9) LS(N8)                      &kp RIGHT_CONTROL      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &mt TAB KP_PLUS
-&kp SPACE     &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &none                                  &kp RIGHT_SHIFT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_ASTERISK
-&trans        &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &kp ESCAPE     &trans             &trans  &kp RETURN  &kp N0                                                           &kp KP_DIVIDE
             >;
         };
     };
