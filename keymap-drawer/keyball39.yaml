@@ -74,7 +74,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F4
   - '%'
-  - Sft+$$mdi:apple-keyboard-control$$
+  - '%'
   - '7'
   - '8'
   - '9'
@@ -270,7 +270,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - KP ASTERISK
+  - '&shisokuenzan'
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+<
   - Sft+Ctl+>
