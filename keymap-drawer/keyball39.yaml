@@ -111,7 +111,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - FUN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'Sft+Ctl+,', s: Sft+Ctl+<}
   - Sft+Ctl+.
   - {t: '$$mdi:transfer$$', type: trans}
@@ -271,7 +271,7 @@ layers:
   - '2'
   - '3'
   - '&shisokuenzan'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - FUN
   - Sft+Ctl+<
   - Sft+Ctl+>
   - {type: held}
@@ -314,8 +314,8 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
