@@ -195,16 +195,16 @@
 &kp Q             &kp W             &kp E           &kp R               &kp T                                              &kp Y        &kp U                &kp I            &kp O            &kp P
 &mt LEFT_SHIFT A  &mt LEFT_GUI S    &mt LEFT_ALT D  &mt LEFT_CONTROL F  &kp G                                              &kp H        &mt RIGHT_CONTROL J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RIGHT_SHIFT MINUS
 &kp Z             &kp X             &kp C           &kp V               &kp B                                              &kp N        &kp M                &kp COMMA        &kp DOT          &kp SLASH
-&mo 1             &mt LEFT_GUI TAB  &lt 4 LEFT_ALT  &lt 6 DELETE        &lt 2 BACKSPACE  &lt 4 INTERNATIONAL_2  &kp ENTER  &lt 3 SPACE                                                         &kp LC(LEFT_SHIFT)
+&mo 1             &mt LEFT_GUI TAB  &kp LEFT_ALT    &lt 6 DELETE        &lt 2 BACKSPACE  &lt 4 INTERNATIONAL_2  &kp ENTER  &lt 3 SPACE                                                         &kp LC(LEFT_SHIFT)
             >;
         };
 
         adjustment {
             bindings = <
-&trans     &trans           &trans  &kp LS(LC(R))  &kp LA(GRAVE)                              &soushinsumi_folder_idou  &trans       &kp LS(LC(I))  &trans         &trans
-&kp LG(A)  &kp PRINTSCREEN  &trans  &trans         &kp LEFT_CONTROL                           &shotai                   &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
-&trans     &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                             &tog 4                    &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
-&trans     &trans           &trans  &kp ESCAPE     &kp DELETE        &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                                         &trans
+&trans     &trans           &trans  &kp LS(LC(R))  &kp LA(GRAVE)                            &soushinsumi_folder_idou  &trans       &kp LS(LC(I))  &trans         &trans
+&kp LG(A)  &kp PRINTSCREEN  &trans  &trans         &trans                                   &shotai                   &kp LEFT     &kp UP         &kp RIGHT      &kp TAB
+&trans     &trans           &trans  &kp LS(LC(V))  &kp LEFT_SHIFT                           &tog 4                    &kp PAGE_UP  &kp DOWN       &kp PAGE_DOWN  &trans
+&trans     &trans           &trans  &kp ESCAPE     &kp DELETE      &kp LEFT_GUI  &kp ENTER  &kp LEFT_ALT                                                         &trans
             >;
 
             label = "adj";
@@ -234,10 +234,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&mo 5  &none           &kp LS(LEFT_CONTROL)  &kp LEFT_SHIFT  &kp LEFT_CONTROL                     &to 0          &none      &none           &none      &none
-&none  &kp LEFT_ARROW  &kp UP_ARROW          &kp RIGHT       &none                                &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
-&none  &none           &kp DOWN              &none           &none                                &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
-&none  &trans          &trans                &kp BACKSPACE   &kp LEFT_SHIFT    &kp RCTRL  &trans  &mo 8                                                &none
+&mo 5      &none     &none     &none          &none                           &to 0          &none      &none           &none      &none
+&kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL      &none                           &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
+&none      &none     &trans    &none          &none                           &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
+&none      &trans    &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &trans  &trans  &mo 8                                                &none
             >;
         };
 
