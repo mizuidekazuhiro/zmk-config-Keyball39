@@ -215,7 +215,7 @@
 &trans     &trans             &trans              &trans            &kp PERCENT                     &kp LC(C)         &paste_paste  &kp F2    &kp F4     &shisokuenzan
 &kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp LEFT_CONTROL  &auto_kakko                     &kp SPACE         &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
 &trans     &trans             &trans              &trans            &trans                          &kp LEFT_CONTROL  &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&mo 7      &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
+&trans     &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
             >;
 
             label = "Cursor";
@@ -257,7 +257,7 @@
 &trans  &kp F2                 &trans                    &kp F4         &kp PERCENT                      &kp PERCENT        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
 &trans  &kp LEFT_ARROW         &kp UP_ARROW              &kp RIGHT      &auto_kakko                      &kp RIGHT_CONTROL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
 &trans  &kp PAGE_UP            &kp DOWN_ARROW            &kp PAGE_DOWN  &trans                           &kp RIGHT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &shisokuenzan
-&trans  &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans         &trans       &trans  &kp RETURN  &kp N0                                                       &kp KP_DIVIDE
+&mo 7   &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans         &trans       &trans  &kp RETURN  &kp N0                                                       &kp KP_DIVIDE
             >;
         };
 
