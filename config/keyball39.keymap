@@ -128,6 +128,13 @@
             bindings = <&kp LC(Y) &kp INTERNATIONAL_2 &kp S &kp O &kp U &kp S &kp I &kp N &kp S &kp U &kp M &kp I &kp SPACE &kp KP_ENTER>;
             label = "SOUSHINSUMI_FOLDER_IDOU";
         };
+
+        auto_kakko: auto_kakko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_5 &kp LS(N8) &kp LS(N9) &kp LEFT>;
+            label = "AUTO_KAKKO";
+        };
     };
 
     combos {
