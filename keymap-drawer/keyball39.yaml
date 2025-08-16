@@ -35,7 +35,7 @@ layers:
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: MOUSE}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Ten_Key}
-  - {t: '$$mdi:backspace$$', h: NUM}
+  - {t: '$$mdi:backspace$$', h: Cursor}
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
@@ -80,31 +80,31 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  NUM:
-  - KP PLUS
-  - KP 7
-  - KP 8
-  - KP 9
+  Cursor:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '%'
   - Ctl+C
   - '&paste_paste'
   - F2
   - F4
   - '&shisokuenzan'
-  - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
-  - '&kakko'
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - '&auto_kakko'
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - PG UP
@@ -241,9 +241,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Ten_Key:
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F2
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F4
   - '%'
   - Sft+$$mdi:apple-keyboard-control$$
@@ -251,21 +251,21 @@ layers:
   - '8'
   - '9'
   - KP MINUS
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Sft+8, h: Sft+9, s: Sft+*}
+  - '&auto_kakko'
   - $$mdi:apple-keyboard-control$$
   - '4'
   - '5'
   - '6'
   - KP PLUS
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - $$mdi:arrow-down-bold$$
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - '1'
   - '2'
@@ -274,7 +274,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Ctl+<
   - Sft+Ctl+>
-  - {t: '$$mdi:keyboard-esc$$', type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RETURN
