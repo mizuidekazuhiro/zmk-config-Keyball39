@@ -227,7 +227,7 @@
 &kp EXCLAMATION   &kp AT_SIGN       &kp HASH          &kp DOLLAR        &kp PERCENT                                          &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS                 &kp MINUS
 &mo 8             &none             &none             &none             &none                                                &kp JP_EQUAL       &kp EQUAL      &kp LEFT_BRACKET  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(BACKSLASH) BACKSLASH
 &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)                                           &kp JP_UNDERSCORE  &kp JP_PIPE    &kp LS(COMMA)     &kp LS(PERIOD)                       &mt SEMICOLON SQT
-&kp C_MUTE        &trans            &trans            &kp DELETE        &kp BACKSPACE  &kp LEFT_CONTROL  &kp LC(LA(DELETE))  &trans                                                                                   &trans
+&kp C_MUTE        &trans            &trans            &kp DELETE        &kp BACKSPACE  &kp LEFT_CONTROL  &kp LC(LA(DELETE))  &trans                                                                                   &bt BT_SEL 0
             >;
         };
 
