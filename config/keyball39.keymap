@@ -254,10 +254,10 @@
         Ten_Key {
             label = "Ten_Key";
             bindings = <
-&trans     &kp F2                 &trans                    &kp F4     &trans                               &kp PERCENT        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
-&kp LSHFT  &kp LGUI               &kp LALT                  &kp LCTRL  &auto_kakko_eng                      &kp RIGHT_CONTROL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
-&trans     &trans                 &trans                    &trans     &trans                               &kp RIGHT_SHIFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &shisokuenzan
-&mo 7      &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans     &trans           &trans  &kp RETURN  &kp N0                                                       &kp KP_EQUAL
+&trans     &kp F2                 &trans                    &kp F4     &trans                               &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS
+&kp LSHFT  &kp LGUI               &kp LALT                  &kp LCTRL  &auto_kakko_eng                      &trans       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS
+&trans     &trans                 &trans                    &trans     &trans                               &trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &shisokuenzan
+&mo 7      &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans     &trans           &trans  &kp RETURN  &kp N0                                                 &kp KP_EQUAL
             >;
         };
 
