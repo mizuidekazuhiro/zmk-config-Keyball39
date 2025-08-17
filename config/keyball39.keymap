@@ -41,15 +41,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <180>;
+    tapping-term-ms = <170>;
     flavor = "balanced";
-    quick-tap-ms = <180>;
+    quick-tap-ms = <170>;
 };
 
 &mt {
-    tapping-term-ms = <180>;
+    tapping-term-ms = <170>;
     flavor = "tap-preferred";
-    quick-tap-ms = <180>;
+    quick-tap-ms = <170>;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
