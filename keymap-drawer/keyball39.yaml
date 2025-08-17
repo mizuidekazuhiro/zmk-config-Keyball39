@@ -95,7 +95,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - '&auto_kakko'
+  - '&auto_kakko_eng'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
@@ -255,7 +255,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - '&auto_kakko'
+  - '&auto_kakko_eng'
   - $$mdi:apple-keyboard-control$$
   - '4'
   - '5'
