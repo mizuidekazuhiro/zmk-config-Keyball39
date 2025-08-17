@@ -236,8 +236,8 @@
             bindings = <
 &mo 5      &none     &none     &none          &none                           &to 0          &none      &none           &none      &none
 &kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL      &none                           &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
-&none      &none     &trans    &none          &none                           &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
-&none      &trans    &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &trans  &trans  &mo 8                                                &none
+&none      &none     &none     &none          &none                           &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
+&none      &trans    &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &trans  &trans  &none                                                &none
             >;
         };
 
