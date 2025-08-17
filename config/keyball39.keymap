@@ -213,9 +213,9 @@
         Cursor_layer {
             bindings = <
 &trans     &trans             &trans              &trans            &kp PERCENT                     &kp LC(C)         &paste_paste  &kp F2    &kp F4     &shisokuenzan
-&kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp LEFT_CONTROL  &auto_kakko                     &kp SPACE         &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
-&trans     &trans             &trans              &trans            &trans                          &kp LEFT_CONTROL  &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
-&trans     &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp LEFT_SHIFT                                       &trans
+&kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp LEFT_CONTROL  &auto_kakko                     &kp LEFT_CONTROL  &kp LEFT      &kp UP    &kp RIGHT  &kp TAB
+&trans     &trans             &trans              &trans            &trans                          &kp LEFT_SHIFT    &kp PG_UP     &kp DOWN  &kp PG_DN  &trans
+&trans     &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp SPACE                                            &trans
             >;
 
             label = "Cursor";
