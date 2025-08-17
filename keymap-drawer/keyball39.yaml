@@ -82,9 +82,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Cursor:
   - {t: '$$mdi:transfer$$', type: trans}
+  - F2
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F4
   - '%'
   - Ctl+C
   - '&paste_paste'
