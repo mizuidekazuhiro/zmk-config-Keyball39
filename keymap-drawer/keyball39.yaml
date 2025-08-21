@@ -245,7 +245,7 @@ layers:
   - F2
   - {t: '$$mdi:transfer$$', type: trans}
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '%'
   - '%'
   - '7'
   - '8'
