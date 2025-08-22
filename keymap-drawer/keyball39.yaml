@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&auto_kakko_eng'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP MULTIPLY
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
