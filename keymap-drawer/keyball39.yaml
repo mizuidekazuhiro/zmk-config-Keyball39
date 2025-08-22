@@ -34,7 +34,7 @@ layers:
   - adj
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Ten_Key}
+  - {t: '$$mdi:keyboard-tab$$', h: Ten_Key}
   - {t: '$$mdi:backspace$$', h: Cursor}
   - {t: INTERNATIONAL 2, h: MOUSE}
   - {t: '$$mdi:keyboard-return$$', h: adj}
