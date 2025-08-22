@@ -82,7 +82,7 @@
             #binding-cells = <0>;
             bindings = <&kp KP_ASTERISK>, <&kp KP_DIVIDE>, <&kp KP_EQUAL>;
 
-            tapping-term-ms = <270>;
+            tapping-term-ms = <200>;
         };
 
         paste_paste: paste_paste {
