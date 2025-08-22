@@ -201,10 +201,10 @@
 
         adjustment {
             bindings = <
-&trans     &trans           &trans  &trans      &kp F5                      &soushinsumi_folder_idou  &trans     &trans    &trans    &trans
-&kp LG(A)  &kp PRINTSCREEN  &trans  &trans      &trans                      &shotai                   &kp LCTRL  &kp LALT  &kp LGUI  &kp RSHFT
-&trans     &trans           &trans  &trans      &trans                      &tog 4                    &trans     &trans    &trans    &trans
-&trans     &trans           &trans  &kp ESCAPE  &kp DELETE  &trans  &trans  &trans                                                   &trans
+&trans     &trans           &trans  &trans      &kp F5                      &soushinsumi_folder_idou  &trans     &auto_kakko_eng  &trans    &trans
+&kp LG(A)  &kp PRINTSCREEN  &trans  &trans      &trans                      &shotai                   &kp LCTRL  &kp LALT         &kp LGUI  &kp RSHFT
+&trans     &trans           &trans  &trans      &trans                      &tog 4                    &trans     &trans           &trans    &trans
+&trans     &trans           &trans  &kp ESCAPE  &kp DELETE  &trans  &trans  &trans                                                          &trans
             >;
 
             label = "adj";
