@@ -36,7 +36,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: Ten_Key}
   - {t: '$$mdi:backspace$$', h: Cursor}
-  - {t: INTERNATIONAL 2, h: MOUSE}
+  - {t: Alt+`, h: MOUSE, s: Alt+~}
   - {t: '$$mdi:keyboard-return$$', h: adj}
   - {t: '$$mdi:keyboard-space$$', h: SYM}
   - Ctl+$$mdi:apple-keyboard-shift$$
