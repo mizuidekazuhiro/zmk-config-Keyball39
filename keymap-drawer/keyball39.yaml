@@ -45,7 +45,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F5
+  - {t: Sft+F5, h: F5}
   - '&soushinsumi_folder_idou'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&auto_kakko_eng'
