@@ -270,7 +270,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - '&shisokuenzan'
+  - KP MULTIPLY
   - FUN
   - Sft+Ctl+<
   - Sft+Ctl+>
