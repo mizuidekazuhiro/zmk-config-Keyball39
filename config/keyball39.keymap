@@ -212,10 +212,10 @@
 
         Cursor_layer {
             bindings = <
-&trans     &kp F2             &trans              &kp F4            &kp PERCENT                     &trans     &trans     &trans    &trans     &trans
-&kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp LEFT_CONTROL  &trans                          &trans     &kp LEFT   &kp UP    &kp RIGHT  &trans
-&trans     &trans             &kp LC(C)           &paste_paste      &trans                          &trans     &kp PG_UP  &kp DOWN  &kp PG_DN  &trans
-&trans     &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans            &trans       &trans  &kp ENTER  &kp SPACE                                  &trans
+&trans     &kp F2             &trans              &kp F4             &kp PERCENT                     &trans     &trans     &trans    &trans     &trans
+&kp LSHFT  &kp LEFT_GUI       &kp LEFT_ALT        &kp RIGHT_CONTROL  &trans                          &trans     &kp LEFT   &kp UP    &kp RIGHT  &trans
+&trans     &trans             &kp LC(C)           &paste_paste       &trans                          &trans     &kp PG_UP  &kp DOWN  &kp PG_DN  &trans
+&trans     &kp LS(LC(COMMA))  &kp LS(LC(PERIOD))  &trans             &trans       &trans  &kp ENTER  &kp SPACE                                  &trans
             >;
 
             label = "Cursor";
@@ -234,10 +234,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&mo 5      &none     &none     &none          &none                           &to 0          &none      &none           &none      &none
-&kp LSHFT  &kp LGUI  &kp LALT  &kp LCTRL      &none                           &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
-&none      &none     &none     &none          &none                           &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
-&none      &trans    &trans    &kp BACKSPACE  &kp LEFT_SHIFT  &trans  &trans  &none                                                &none
+&mo 5      &none     &none     &none              &none                           &to 0          &none      &none           &none      &none
+&kp LSHFT  &kp LGUI  &kp LALT  &kp RIGHT_CONTROL  &none                           &kp PAGE_UP    &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &none
+&none      &none     &none     &none              &none                           &kp PAGE_DOWN  &mkp MB4   &msc SCRL_DOWN  &mkp MB5   &mkp MCLK
+&none      &trans    &trans    &kp BACKSPACE      &kp LEFT_SHIFT  &trans  &trans  &none                                                &none
             >;
         };
 
