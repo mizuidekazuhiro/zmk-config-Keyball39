@@ -257,7 +257,7 @@
 &trans     &kp F2                 &trans                    &kp F4     &kp PERCENT                      &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
 &kp LSHFT  &kp LGUI               &kp LALT                  &kp RCTRL  &trans                           &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
 &trans     &trans                 &trans                    &trans     &trans                           &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MULTIPLY
-&mo 7      &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans     &trans       &trans  &kp RETURN  &kp KP_NUMBER_0                                                     &kp KP_EQUAL
+&mo 7      &kp LS(LC(LESS_THAN))  &kp LS(LC(GREATER_THAN))  &trans     &trans       &trans  &kp RETURN  &kp KP_NUMBER_0                                                     &kp EQUAL
             >;
         };
 
