@@ -279,7 +279,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RETURN
   - KP 0
-  - KP EQUAL
+  - {t: '=', s: +}
   FUN:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
