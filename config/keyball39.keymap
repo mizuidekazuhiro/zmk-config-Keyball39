@@ -145,11 +145,6 @@
             key-positions = <0 1>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <18 19>;
-        };
-
         click {
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
