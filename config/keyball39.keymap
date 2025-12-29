@@ -41,15 +41,19 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
     flavor = "tap-preferred";
-    quick-tap-ms = <170>;
+    quick-tap-ms = <0>;
+    require-prior-idle-ms = <120>;
+    retro-tap;
 };
 
 &mt {
-    tapping-term-ms = <170>;
+    tapping-term-ms = <200>;
     flavor = "tap-preferred";
-    quick-tap-ms = <170>;
+    quick-tap-ms = <0>;
+    require-prior-idle-ms = <120>;
+    retro-tap;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
