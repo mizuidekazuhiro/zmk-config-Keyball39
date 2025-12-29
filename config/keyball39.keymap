@@ -45,7 +45,6 @@
     flavor = "tap-preferred";
     quick-tap-ms = <1>;
     require-prior-idle-ms = <120>;
-    retro-tap;
 };
 
 &mt {
@@ -53,7 +52,6 @@
     flavor = "tap-preferred";
     quick-tap-ms = <1>;
     require-prior-idle-ms = <120>;
-    retro-tap;
 };
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
