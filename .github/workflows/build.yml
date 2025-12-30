@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y python3-pip cmake ninja-build
+          sudo apt install -y python3-pip cmake ninja-build west
 
       - name: Clone ZMK
         run: git clone --depth 1 https://github.com/zmkfirmware/zmk.git
@@ -24,7 +24,7 @@ jobs:
           west build -s zmk/app -b nice_nano -- -DZMK_CONFIG=${{ github.workspace }}/config -DSHIELD=${{ matrix.shield }}
 
       - name: Upload firmware
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4   # ← v4 に更新
         with:
           name: ${{ matrix.shield }}-firmware
-          path: build/zephyr/zmk.uf2  # 生成されたファームウェアファイルを指定
+          path: build/zephyr/zmk.uf2
