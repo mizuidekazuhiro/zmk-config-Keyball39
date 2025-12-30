@@ -1,30 +1,5 @@
-name: ZMK Build Both Sides
-
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        shield: [keyball39_left, keyball39_right]
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Install dependencies
-        run: |
-          sudo apt update
-          sudo apt install -y python3-pip cmake ninja-build west
-
-      - name: Clone ZMK
-        run: git clone --depth 1 https://github.com/zmkfirmware/zmk.git
-
-      - name: Build firmware
-        run: |
-          west build -s zmk/app -b nice_nano -- -DZMK_CONFIG=${{ github.workspace }}/config -DSHIELD=${{ matrix.shield }}
-
-      - name: Upload firmware
-        uses: actions/upload-artifact@v4   # ← v4 に更新
-        with:
-          name: ${{ matrix.shield }}-firmware
-          path: build/zephyr/zmk.uf2
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.2
