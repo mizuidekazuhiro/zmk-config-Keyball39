@@ -57,9 +57,6 @@
 
         zephyr,axis-x = <INPUT_REL_X>;
         zephyr,axis-y = <INPUT_REL_Y>;
-
-        scroll-layers = <5>;
-        snipe-layers  = <6>;
     };
 };
 
@@ -67,5 +64,8 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        scroll-layers = <5>;
+        snipe-layers  = <6>;
     };
 };
