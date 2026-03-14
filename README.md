@@ -1,4 +1,4 @@
-This keeb created by a group of people who loves keyball.
+This Keyball created by a group of people who loves keyball.
 
 Special Thanks to: <br>
 PCB: *[yangxing844](https://github.com/yangxing844)* <br>
