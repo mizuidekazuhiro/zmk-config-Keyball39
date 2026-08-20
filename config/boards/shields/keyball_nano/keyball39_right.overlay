@@ -56,15 +56,15 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610-alt";
         reg = <0>;
         spi-max-frequency = <2000000>;
-        motion-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        zephyr,axis-x = <INPUT_REL_X>;
-        zephyr,axis-y = <INPUT_REL_Y>;
-        res-cpi = <1200>;
+        irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+        cpi = <800>;
         invert-y;
-        smart-mode;
+        evt-type = <INPUT_EV_REL>;
+        x-input-code = <INPUT_REL_X>;
+        y-input-code = <INPUT_REL_Y>;
     };
 };
 
@@ -73,8 +73,8 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
-        /* 1200 CPI / 4 and a 700 ms automatic mouse layer (layer 4). */
-        input-processors = <&zip_temp_layer 4 700>, <&zip_xy_scaler 1 4>;
+        /* 800 CPI, 1:1 cursor movement. Mouse layer 4 is activated manually. */
+        input-processors = <&zip_xy_scaler 1 1>;
 
         scroll_layer {
             layers = <5>;
@@ -83,10 +83,10 @@
                                <&zip_scroll_scaler 1 32>;
         };
 
-        /* Match the former 400 CPI / 4 snipe speed at 1200 sensor CPI. */
+        /* Snipe layer 8 uses one eighth of the normal cursor speed. */
         snipe_layer {
             layers = <8>;
-            input-processors = <&zip_xy_scaler 1 12>;
+            input-processors = <&zip_xy_scaler 1 8>;
         };
     };
 };
