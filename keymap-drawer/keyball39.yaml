@@ -132,9 +132,9 @@ layers:
   - (
   - {t: '-', s: _}
   - SNIPE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&excel_go_to_special'
+  - '&excel_return'
+  - {t: 'Ctl+]', s: 'Ctl+}'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _
   - {t: '=', s: +}
